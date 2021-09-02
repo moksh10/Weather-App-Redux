@@ -1,0 +1,105 @@
+.info-container
+{
+    min-height: 100vh;
+    width: 45vmin;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    padding-left: 5vmin;
+    background: rgba(29, 29, 29, 0.7);
+    backdrop-filter: saturate(180%) blur(10px);  
+}
+.info-container::-webkit-scrollbar
+{
+    display: none;
+}
+.search-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.search-box > input
+{
+    width: 75%;
+    display: inline-block;
+    border: 0;
+    color:rgb(189, 189, 189);
+    font-size: 2.75vmin;
+    height: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+    padding: 1vmin;
+    
+}
+.search-box > input:focus
+{
+    outline: 0;
+}
+.search-icon
+{
+    width: 20%;
+    display: flex;
+    height: 100%;
+    background-color: rgb(46, 46, 46);
+    padding: 3.5vmin;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vmin;
+    color:white;
+    cursor: pointer;
+    transition: all .25s;
+
+}
+.search-icon:hover
+{
+    opacity: .7;
+}
+.weather-details
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4.5vmin 2.25vmin 0 0;
+    border-bottom: 1px solid grey;
+}
+.weather-details > h1
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 100%;
+    text-align: left;
+    font-size: 3vmin;
+    color: rgb(211, 211, 211);
+    font-weight: lighter;
+}
+.weather-details > div:nth-child(even)
+{
+    width: 50%;
+    padding: 1.5vmin;
+    font-size: 2.5vmin;
+    color:rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+     
+}
+
+.weather-details > div:nth-child(odd)
+{
+    width: 50%;
+    padding: 1.5vmin;
+    font-size: 2.5vmin;
+    color:rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+.weather-details > div:last-child
+{
+    
+    margin-bottom: 4vmin;
+}

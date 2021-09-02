@@ -1,0 +1,52 @@
+.main-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 999;
+    position: absolute;
+    bottom: 30vh;
+    left: 10%;
+    padding: 4vmin;
+    border-radius: 3vmin;
+    flex-direction: column;  
+    background-color: rgba(49, 49, 49, 0.712);
+    backdrop-filter: saturate(180%) blur(7px); 
+
+
+}
+.main-box > div
+{
+    color: rgb(230, 230, 230);
+    margin: 1vmin;
+}
+.main-left
+{
+    
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 2vmin;
+    font-size: 12vmin;
+    text-align: center;
+}
+.main-middle
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 8vmin;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-right
+{
+    display: flex;
+    flex-direction: column;
+}
+.main-right > .icon,.condition
+{
+   display: flex;
+   height: 50%;
+   margin: .5vmin;
+   justify-content: center;
+   align-items: center;
+    font-size: 5vmin;
+}

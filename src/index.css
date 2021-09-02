@@ -2,7 +2,17 @@
 {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: .1vmin;
 
+}
+html
+{
+  scroll-behavior: smooth;
+}
+::selection
+{
+  background-color: rgb(161, 161, 161);
+  color: black;
 }
 body {
   margin: 0;

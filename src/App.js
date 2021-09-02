@@ -1,7 +1,12 @@
 import './App.css'
+import ImageContainer from './components/ImageContainer'
+import InfoContainer from './components/InfoContainer'
+
 function App() {
   return (
-    <div>
+    <div className="app-container">
+      <ImageContainer />
+      <InfoContainer />
     </div>
   )
 }

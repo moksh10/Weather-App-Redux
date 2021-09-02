@@ -1,0 +1,7 @@
+.app-container
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    min-height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
