@@ -63,6 +63,7 @@
     flex-wrap: wrap;
     margin: 4.5vmin 2.25vmin 0 0;
     border-bottom: 1px solid grey;
+    padding-bottom:4vmin;
 }
 .weather-details > h1
 {
@@ -97,9 +98,4 @@
     justify-content: flex-end;
     font-family: 'Merriweather Sans', sans-serif;
     
-}
-.weather-details > div:last-child
-{
-    
-    margin-bottom: 4vmin;
 }

@@ -4,7 +4,7 @@ import MainBox from './MainBox'
 function ImageContainer() {
     return (
         <>
-        <div className="image-container fog">
+        <div className="image-container snow">
         </div>
         <MainBox />
         </>
