@@ -3,7 +3,6 @@ import { useSelector } from 'react-redux'
 function MainBox() {
     const state = useSelector(state => state)
     const {name,temp,main}=state
-    console.log(name,temp,main)
    
     return (
         <>

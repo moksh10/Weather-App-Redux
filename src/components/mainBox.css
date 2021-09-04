@@ -4,8 +4,8 @@
     flex-wrap: wrap;
     z-index: 999;
     position: absolute;
-    bottom: 25vh;
-    left: 1%;
+    top:12vh;
+    left: 4vmin;
     padding: 4vmin;
     border-radius: 3vmin;
     flex-direction: column;  

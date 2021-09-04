@@ -1,11 +1,10 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import './imageContainer.css'
-import {useSpring,animated} from 'react-spring'
 import MainBox from './MainBox'
+import ErrorBox from './ErrorBox'
 function ImageContainer() {
     const id = useSelector(state=>state.id)
-  
     let bg = "fog"
     if(id>=200&&id<=232)
     {
@@ -38,9 +37,10 @@ function ImageContainer() {
     }
     return (
         <>
-        <animated.div className={`image-container ${bg}`}>
-        </animated.div>
+        <div className={`image-container ${bg}`}>
+        </div>
         <MainBox />
+        <ErrorBox />
         </>
     )
 }
