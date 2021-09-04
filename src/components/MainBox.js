@@ -1,19 +1,25 @@
-import { faSun } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './mainBox.css'
+import { useSelector } from 'react-redux'
 function MainBox() {
-    const ele = <FontAwesomeIcon icon={faSun}/>
+    const state = useSelector(state => state)
+    const {name,temp,main}=state
+    console.log(name,temp,main)
+   
     return (
+        <>
+
         <div className="main-box">
-            <div className="main-left">16°</div>
+            <div className="main-left">{temp}°</div>
             <div className="main-middle">
-                <div>London</div>
+                <div>{name}</div>
                </div>
             <div className="main-right">
-                <div className="icon">{ele}</div>
-                <div className="condition">Rain</div>
+                <div className="condition">{main}</div>
                 </div> 
+
         </div>
+                
+        </>
     )
 }
 

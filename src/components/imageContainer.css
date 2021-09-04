@@ -6,37 +6,42 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+   transition: all .5s ease-in;
 }
 .clear
 {
     background-image: url('./../Backgrounds/clear.jpg');
+   transition: all .5s ease-in;
 }
 .cloudy
 {
     background-image: url('./../Backgrounds/cloudy.jpg');
+   transition: all .5s ease-in;
 }
 .drizzle
 {
     background-image: url('./../Backgrounds/drizzle.jpg');
+   transition: all .5s ease-in;
 }
 .fog
 {
     background-image: url('./../Backgrounds/fog.jpg');
+   transition: all .5s ease-in;
 }
-.night
-{
-    background-image: url('./../Backgrounds/night.jpg');
-}
+
 .rain
 {
     background-image: url('./../Backgrounds/rain.jpg');
+   transition: all .5s ease-in;
 }
 .snow
 {
     background-image: url('./../Backgrounds/snow.jpg');
+   transition: all .5s ease-in;
 }
 
 .storm
 {
     background-image: url('./../Backgrounds/storm.jpg');
+   transition: all .5s ease-in;
 }
